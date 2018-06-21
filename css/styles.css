@@ -112,6 +112,23 @@ header h1 {
         width: 100%;
         
         }
+
+
+.contacthome {
+    padding-top: 250px;
+    background-image: url("../img/map.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.contacthome img {
+        width: 100%;
+        
+        }
 /* Main Styles */
 
 .info h1 {
