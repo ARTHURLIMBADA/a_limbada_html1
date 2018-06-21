@@ -26,10 +26,49 @@
             <h1>Contact Us</h1>
         </section>
 
-<main>
+<main class="contactmain">
+  <div class="form">
+  <form action="contact.php" method="POST">
+    <fieldset>
+      <ul class="form-style-1">
+        <li>
+          <label> Full Name</label>
+          <input type="text" name="FirstName" required placeholder=" First Name" class="field-divided">
+          &nbsp;
+          <input type="text" name="surname" required placeholder="Surname" class="field-divided"> 
+        </li>
+        <li>
+          <label>Email</label>
+          <input type="email" name="email" required placeholder="Email Address">
+        </li>
+        <li>
+          <label>Your Message</label>
+          <textarea name="Message" class="field-long field-textarea"></textarea>
+        </li>
+         <li>
+          <input type="Submit" name="Send">
+        </li>
+
+      </ul>
+
+    </fieldset>
+  </form>
+  </div>
+
+  <div class="contactinfo">
+    <h2>We are at home in</h2>
+    <p>12 Bertram Road </p>
+    <p>Sea Point</p>
+    <p>8005</p>
+    <p>Tel:+27 21 434 1929 </p>
+    <h2>Contact</h2>
+    <p>Tel:+27 21 434 1929 </p>
+    <p>Email:info@sweetestguesthouses.co.za</p>
 
 
 
+
+  </div>
 
 
 </main>

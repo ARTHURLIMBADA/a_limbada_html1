@@ -2,11 +2,11 @@
 
 body {
     padding: 0;
-	margin: 0;
-	font-size: 15px;
-	line-height: 1.5;
-	color: black;
-	background-color: whitesmoke;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
     font-family: 'Muli', sans-serif;
     width: 100%;
 }
@@ -14,14 +14,15 @@ body {
 /* NAV STYLES */
 
 nav {
-	width: 100%;
-	background-color: white;
-	height: 100px;
-	vertical-align: middle;
-	position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    vertical-align: middle;
+    position: fixed;
     overflow: hidden;
     top: 0;
     opacity: 0.9;
+    text-align: center;
 }
 
 
@@ -29,23 +30,26 @@ nav img {
     margin-left: 50px;
     height: 100px;
     width: auto;
+    float: left;
 }
 
 
-#drop-nav {
-	position: absolute;
-	right:380px;
-	bottom: 1px;
-}
+/*#drop-nav {
+    position: absolute;
+    right:380px;
+    bottom: 1px;
+}*/
 
 nav ul{
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
 }
 nav ul li {
-	float: left;
-	position: relative;
+    
+    position: relative;
+    display: inline-block;
 
 }
 
@@ -56,10 +60,10 @@ nav ul li {
 }
 
 nav ul li a {
-	display: block;
-	padding: 35px 13px;
-	text-decoration: none;
-	white-space: nowrap;
+    display: block;
+    padding: 35px 13px;
+    text-decoration: none;
+    white-space: nowrap;
     color: darkgreen;
     font-family: 'Muli', sans-serif;
     font-weight: 700;
@@ -100,11 +104,12 @@ header h1 {
 
 .headhome {
     padding-top: 250px;
+    display: inline-block;
     background-image: url("../img/sweet-lemon.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 
@@ -148,13 +153,13 @@ header h1 {
 
 .info a {
    display: block;
-	background-color: green;
-	text-align: center;
-	padding: 9px 40px;
-	width: 100px;
-	margin: 20px auto;
-	color: whitesmoke;
-	text-decoration: none;
+    background-color: green;
+    text-align: center;
+    padding: 9px 40px;
+    width: 100px;
+    margin: 20px auto;
+    color: whitesmoke;
+    text-decoration: none;
     font-family: 'Muli', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -176,14 +181,14 @@ header h1 {
 }
 
 .right {
-		width: 50%;
-		background-color: whitesmoke;
-		height: 400px;
-		float: right;
+        width: 50%;
+        background-color: whitesmoke;
+        height: 400px;
+        float: right;
         
         overflow: hidden;
         
-	}
+    }
 
 main section div img {
     
@@ -197,14 +202,14 @@ main section {
 }
 
 .left {
-		width: 50%;
-		background-color: whitesmoke;
-		height: 400px;
-		float: right;
+        width: 50%;
+        background-color: whitesmoke;
+        height: 400px;
+        float: right;
         
         overflow: hidden;
         
-	}
+    }
 
     
 }
@@ -243,13 +248,13 @@ main section {
 
 .left a {
    display: block;
-	background-color: green;
-	text-align: center;
-	padding: 3px 10px;
-	width: 100px;
-	margin: 20px 100px;
-	color: whitesmoke;
-	text-decoration: none;
+    background-color: green;
+    text-align: center;
+    padding: 3px 10px;
+    width: 100px;
+    margin: 20px 100px;
+    color: whitesmoke;
+    text-decoration: none;
     font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -296,13 +301,13 @@ main section {
 
 .right a {
    display: block;
-	background-color: green;
-	text-align: center;
-	padding: 3px 10px;
-	width: 100px;
-	margin: 20px 100px;
-	color: whitesmoke;
-	text-decoration: none;
+    background-color: green;
+    text-align: center;
+    padding: 3px 10px;
+    width: 100px;
+    margin: 20px 100px;
+    color: whitesmoke;
+    text-decoration: none;
     font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -489,6 +494,119 @@ footer p {
 
 a {
     text-decoration: none;
+}
+
+.contactmain {
+    height: 500px;
+}
+
+
+
+
+/* Form Style*/
+
+.form-style-1 {
+    width: 50
+    margin: 10px auto;
+    padding: 20px 12px 10px 20px;
+    font-size: 13px;
+    font-family: 'Muli' sans-serif;
+
+
+}
+
+.form-style-1 li {
+    list-style: none;
+    margin-top: 10px
+    padding: 0;
+    display: block;
+}
+
+.form-style-1 label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+
+.form-style-1 input[type="text"], .form-style-1 input[type="email"], textarea, select{
+ box-sizing: border-box;
+ border: 1px solid #bebebe; 
+ padding: 7px;
+ margin: 0;
+ outline: 0;
+}
+
+.
+
+select {
+    height:34px;
+    width: 286px;
+}
+
+.field-divided {
+width: 48%;
+height: 30px;
+
+}
+
+.field-textarea {
+    height: 100px;
+    width: 395px;
+}
+
+input[type="submit"]{
+    font-family: 'Muli' sans-serif;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 3px lightgrey;
+
+    
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+    box-shadow: none;
+
+}
+
+input[type="submit"]: {
+    background-color: green;
+    box-shadow: 0 2px grey;
+    transform: translateY(3px);}
+
+fieldset {
+    width: 450px;
+    margin: 0 auto;
+    border: 0
+}
+
+.form {
+    width: 50%;
+    float: right;
+    padding-top:30px;
+}
+
+.contactinfo {
+    padding-top: 50px;
+}
+
+.contactinfo h2{ 
+    padding-left: 200px;
+  
+
+}
+.contactinfo p{ 
+    padding-left: 200px;
+    line-height: 12px;
+
 }
 
 
