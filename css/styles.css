@@ -523,3 +523,7 @@ fieldset {
 	line-height: 12px;
     color: black;
 }
+
+.gallery {
+	height: 300px;
+}
