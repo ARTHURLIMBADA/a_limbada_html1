@@ -10,6 +10,26 @@ body {
 	font-family: 'Muli', sans-serif;
 	width: 100%;
 }
+
+.to-top {
+	display: block;
+	padding: 10px;
+	background-color: darkgreen;
+	color: whitesmoke;
+	text-decoration: none;
+	border-radius: 30px;
+	width: 23px;
+	text-align: center;
+	transition: color 0.3s ease;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	border: white 1px solid;
+}
+
+.to-top:hover {
+	color: gold;
+}
 /* NAV STYLES */
 
 nav {
