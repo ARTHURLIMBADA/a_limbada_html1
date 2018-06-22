@@ -378,9 +378,16 @@ footer p {
 }
 .link .one {
 	background-image: url("../img/platform.jpg") !important;
-	background-position: left top;
+	background-position: center;
 	background-size: 310px auto;
 }
+
+.link .one:hover {
+	background-size: 330px;
+	transition: 0.3s ease-in;
+	opacity: 0.9;
+}
+
 .link .two {
 	background-image: url("../img/breakfast.jpg") !important;
 	background-position: left top;
