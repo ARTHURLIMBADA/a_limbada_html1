@@ -390,13 +390,25 @@ footer p {
 
 .link .two {
 	background-image: url("../img/breakfast.jpg") !important;
-	background-position: left top;
+	background-position: center;
 	background-size: auto 200px;
+}
+
+.link .two:hover {
+	transition: 0.3s ease-in;
+	background-size: 480px;
+	opacity: 0.9;
 }
 .three {
 	background-image: url("../img/team.jpg") !important;
-	background-position: top center;
+	background-position: center;
 	background-size: 280px auto;
+}
+
+.link .three:hover {
+	background-size: 290px;
+	transition: 0.3s ease-in;
+	opacity: 0.9;
 }
 .linkinfo {
 	margin: 0 auto;
