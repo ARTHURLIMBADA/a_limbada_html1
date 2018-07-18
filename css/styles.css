@@ -187,9 +187,11 @@ header h1 {
 	height: 400px;
 	float: right;
 	overflow: hidden;
+
 }
 main section div img {
 	width: 100%;
+	
 }
 main section {
 	width: 100%;
